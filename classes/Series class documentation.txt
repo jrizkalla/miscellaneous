@@ -1,0 +1,47 @@
+Series class documentation:
+
+
+	Constructors:
+	*All Constructors except the first set all episodes to unwatched*
+		Series ("Series.readOption.read_from_file"):-
+			Reads the object info from a file, if object info
+			are not on a file it uses the Series() constructor.
+			if no file exists it creates one and uses the 
+			Series() constructor
+		Series ():-
+			sets name to "nameNotInitialized"
+			sets the number of episodes to 50
+		Series (int):-
+			sets name to "nameNotInitialized"
+			assigns the value passed to the number of episodes
+		Series (String):-
+			assigns the value passed to the name
+			sets the number of episodes to 50
+		Series (String, int):-
+			assigns the value passed to the name
+			assigns the value passed to the number of episodes
+			
+			
+	Functions that return important info.:
+		getName(): String:-
+			returns the name
+		getNoOfEpisodes (): int:-
+			returns the number of episodes
+		episodeWatched (int): boolean:-
+			returns whether the episode (episode number is the value passed)
+			is watched(true) or not(false).
+			the value passed must be smaller than 0 and bigger 
+			than the no of episodes
+			
+			
+	Other methods:
+		static read (Series): boolean:-
+			reads the object from a file (returns false if it there is
+			nothing to read or if there is no file)
+			if there is no file it creates one
+		save (ArrayList<Series>)
+			saves the ArrayList passed
+		watchedEpisode (int)
+			sets the episode watched to true
+		didNotWatchEpisode (int)
+			sets the episode watched to false
