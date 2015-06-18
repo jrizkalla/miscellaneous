@@ -1,0 +1,5 @@
+AudioQueuePlayback/DerivedData/*
+AudioQueueRecorder/DerivedData/*
+SoundIllusion/DerivedData/*
+ToneFileGenerator/DerivedData/*
+playTones/DerivedData/*
