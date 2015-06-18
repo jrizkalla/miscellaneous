@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088A1B591B33375700945134 /* AUGraphMixerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 088A1B4F1B33375700945134 /* AUGraphMixerInfo.m */; };
+		088A1B5A1B33375700945134 /* CheckError.m in Sources */ = {isa = PBXBuildFile; fileRef = 088A1B511B33375700945134 /* CheckError.m */; };
+		088A1B5B1B33375700945134 /* FrequencyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 088A1B531B33375700945134 /* FrequencyGenerator.m */; };
+		088A1B5C1B33375700945134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 088A1B541B33375700945134 /* main.m */; };
+		088A1B5D1B33375700945134 /* MultipleFrequencyAUGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 088A1B561B33375700945134 /* MultipleFrequencyAUGraph.m */; };
+		088A1B5E1B33375700945134 /* MultipleFrequencyAUGraphCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 088A1B581B33375700945134 /* MultipleFrequencyAUGraphCallback.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		088A1B421B33373500945134 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		088A1B441B33373500945134 /* SoundIllusion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SoundIllusion; sourceTree = BUILT_PRODUCTS_DIR; };
+		088A1B4E1B33375700945134 /* AUGraphMixerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUGraphMixerInfo.h; sourceTree = "<group>"; };
+		088A1B4F1B33375700945134 /* AUGraphMixerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUGraphMixerInfo.m; sourceTree = "<group>"; };
+		088A1B501B33375700945134 /* CheckError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckError.h; sourceTree = "<group>"; };
+		088A1B511B33375700945134 /* CheckError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckError.m; sourceTree = "<group>"; };
+		088A1B521B33375700945134 /* FrequencyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyGenerator.h; sourceTree = "<group>"; };
+		088A1B531B33375700945134 /* FrequencyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyGenerator.m; sourceTree = "<group>"; };
+		088A1B541B33375700945134 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		088A1B551B33375700945134 /* MultipleFrequencyAUGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleFrequencyAUGraph.h; sourceTree = "<group>"; };
+		088A1B561B33375700945134 /* MultipleFrequencyAUGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleFrequencyAUGraph.m; sourceTree = "<group>"; };
+		088A1B571B33375700945134 /* MultipleFrequencyAUGraphCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleFrequencyAUGraphCallback.h; sourceTree = "<group>"; };
+		088A1B581B33375700945134 /* MultipleFrequencyAUGraphCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleFrequencyAUGraphCallback.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088A1B411B33373500945134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088A1B3B1B33373500945134 = {
+			isa = PBXGroup;
+			children = (
+				088A1B461B33373500945134 /* SoundIllusion */,
+				088A1B451B33373500945134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088A1B451B33373500945134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088A1B441B33373500945134 /* SoundIllusion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088A1B461B33373500945134 /* SoundIllusion */ = {
+			isa = PBXGroup;
+			children = (
+				088A1B4E1B33375700945134 /* AUGraphMixerInfo.h */,
+				088A1B4F1B33375700945134 /* AUGraphMixerInfo.m */,
+				088A1B501B33375700945134 /* CheckError.h */,
+				088A1B511B33375700945134 /* CheckError.m */,
+				088A1B521B33375700945134 /* FrequencyGenerator.h */,
+				088A1B531B33375700945134 /* FrequencyGenerator.m */,
+				088A1B541B33375700945134 /* main.m */,
+				088A1B551B33375700945134 /* MultipleFrequencyAUGraph.h */,
+				088A1B561B33375700945134 /* MultipleFrequencyAUGraph.m */,
+				088A1B571B33375700945134 /* MultipleFrequencyAUGraphCallback.h */,
+				088A1B581B33375700945134 /* MultipleFrequencyAUGraphCallback.m */,
+			);
+			path = SoundIllusion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088A1B431B33373500945134 /* SoundIllusion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088A1B4B1B33373500945134 /* Build configuration list for PBXNativeTarget "SoundIllusion" */;
+			buildPhases = (
+				088A1B401B33373500945134 /* Sources */,
+				088A1B411B33373500945134 /* Frameworks */,
+				088A1B421B33373500945134 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundIllusion;
+			productName = SoundIllusion;
+			productReference = 088A1B441B33373500945134 /* SoundIllusion */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088A1B3C1B33373500945134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "John Rizkalla";
+				TargetAttributes = {
+					088A1B431B33373500945134 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 088A1B3F1B33373500945134 /* Build configuration list for PBXProject "SoundIllusion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 088A1B3B1B33373500945134;
+			productRefGroup = 088A1B451B33373500945134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088A1B431B33373500945134 /* SoundIllusion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088A1B401B33373500945134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088A1B591B33375700945134 /* AUGraphMixerInfo.m in Sources */,
+				088A1B5A1B33375700945134 /* CheckError.m in Sources */,
+				088A1B5E1B33375700945134 /* MultipleFrequencyAUGraphCallback.m in Sources */,
+				088A1B5D1B33375700945134 /* MultipleFrequencyAUGraph.m in Sources */,
+				088A1B5C1B33375700945134 /* main.m in Sources */,
+				088A1B5B1B33375700945134 /* FrequencyGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		088A1B491B33373500945134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		088A1B4A1B33373500945134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		088A1B4C1B33373500945134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		088A1B4D1B33373500945134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088A1B3F1B33373500945134 /* Build configuration list for PBXProject "SoundIllusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088A1B491B33373500945134 /* Debug */,
+				088A1B4A1B33373500945134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088A1B4B1B33373500945134 /* Build configuration list for PBXNativeTarget "SoundIllusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088A1B4C1B33373500945134 /* Debug */,
+				088A1B4D1B33373500945134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088A1B3C1B33373500945134 /* Project object */;
+}
